@@ -1,23 +1,35 @@
 {
-	"name": "gushion-react-modern-template",
-	"version": "4.0.0",
-	"private": true,
-	"description": "React Modern Coding Template for Project Init",
-	"main": "src/index.js",
-	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject"
-	},
-	"dependencies": {
-		"@emotion/babel-plugin": "11.0.0-next.12",
-		"@emotion/babel-preset-css-prop": "10.0.27",
-		"emotion": "10.0.27",
-		"react": "latest",
-		"react-dom": "latest",
-		"react-scripts": "latest"
-	},
-	"keywords": [],
-	"description": ""
+  "name": "gushion-react-modern-template",
+  "version": "4.0.0",
+  "private": true,
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@emotion/babel-plugin": "11.0.0-next.12",
+    "@emotion/babel-preset-css-prop": "10.0.27",
+    "emotion": "10.0.27",
+    "ramda": "^0.27.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest"
+  },
+  "keywords": [],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
